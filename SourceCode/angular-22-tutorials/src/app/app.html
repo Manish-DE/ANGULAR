@@ -1,0 +1,13 @@
+<h1> Counter app</h1>
+<div style="text-align: center;">
+  <h2 class="count">{{count}}</h2>
+  <div>
+    <button class="btn bg-red" (click)="increment()">Increment</button>
+    <button class="btn bg-blue" (click)="decrement()">Decrement</button>
+    <button class="btn bg-green" (click)="reset()">Reset</button>
+
+    BUTTON TO UPDATE SIGNAL
+    <h2>{{data()}}</h2>
+    <button class="btn bg-green" (click)="updateSignal()">Update Signal</button>
+  </div>
+</div>
